@@ -1,0 +1,25 @@
+/*
+  used on the homepage to make the images full screen
+*/
+.item img {
+    width: 100%;
+}
+/*
+  used on the homepage to overwrite jumbotron text 
+*/
+#jumbo-text {
+    font-size: 1em;
+    padding-top: 5px;
+}
+/*
+    used on the homepage to size the google map
+*/
+.embed-responsive-full {
+    padding-bottom: 35%;
+}
+/*
+    makes the floating navbar not overlap content
+*/
+#Navbar {
+    padding-bottom: 70px;
+}
