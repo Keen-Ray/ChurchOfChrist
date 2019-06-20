@@ -17,9 +17,3 @@
 .embed-responsive-full {
     padding-bottom: 35%;
 }
-/*
-    makes the floating navbar not overlap content
-*/
-#Navbar {
-    padding-bottom: 70px;
-}

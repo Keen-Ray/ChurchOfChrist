@@ -5,12 +5,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         
         <!--custom home css-->
         <link rel="stylesheet" href="overwrites.css">
@@ -22,32 +27,34 @@
     <body>
         <div class="container">
             <!--Navigation bar-->
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <!--in-collapsable part of navbar-->
-                    <div class="navbar-header">
-                            <!--allows the navbar to collapse-->
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        <a class="navbar-brand" href="#">Church Of Christ</a>
-                    </div>
-
-                    <!--actual menu that collapses-->
-                    <div id="navbar" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="#">Bulletin Board</a></li>
-                            <li><a href="what-we-believe.html">What We Believe</a></li>
-                            <li><a href="#">Sermons</a></li>
-                            <li><a href="#">Puerto Rico Relief</a></li>
-                        </ul>
-                    </div><!--nav collapse-->
-                </div>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Church Of Christ</a>
+                <!--Button to show when collapsed-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button> <!--End Button details-->
+                <!--actual menu-->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bulletin Board</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="what-we-believe.html">What We Believe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sermons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Puerto Rico Relief</a>
+                        </li>
+                </div> <!--End actual menu-->
             </nav>
             
 
@@ -134,9 +141,5 @@
         </div>
 
         <!--these are placed at the end to increase load time-->
-        
-
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </body>
 </html>
