@@ -17,3 +17,9 @@
 .embed-responsive-full {
     padding-bottom: 35%;
 }
+/*
+  allows the nav bar to no block content
+*/
+body { 
+  padding-top: 65px; 
+}
