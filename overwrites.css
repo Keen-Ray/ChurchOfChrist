@@ -30,7 +30,6 @@ body {
   formats quotes to be more readable 
 */
 blockquote {
-  padding-right: 2rem;
   padding-left: 2rem;
   font-style: italic;
 }
