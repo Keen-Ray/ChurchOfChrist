@@ -19,7 +19,33 @@
 }
 /*
   allows the nav bar to no block content
+  also give text on bottom a bit of space
 */
 body { 
   padding-top: 65px; 
+  padding-bottom: 20px;
+}
+
+/*
+  formats quotes to be more readable 
+*/
+blockquote {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-style: italic;
+}
+/*
+  overides the previous class if blockquote needs to be indented
+*/
+.indented-blockquote {
+  padding-right: 2rem; 
+  padding-left: 5rem;
+  font-style: italic;
+}
+
+/*
+  slightly indents text
+*/
+p {
+  padding-left: 1rem;
 }
