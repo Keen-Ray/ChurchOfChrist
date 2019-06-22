@@ -33,24 +33,30 @@
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Church Of Christ</a>
                 <!--Button to show when collapsed-->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleTarget" aria-controls="navbarToggleTarget" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button> <!--End Button details-->
                 <!--actual menu-->
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="collapse navbar-collapse" id="navbarToggleTarget">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="contact-us.html">Contact Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Bulletin Board</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bulletin Board</a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="bulletin-board/events.html">Events</a>
+                                <a class="dropdown-item" href="bulletin-board/privileges.html">Church Privileges</a>
+                            </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                What We Believe</a>
+
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What We Believe</a>
+
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="what-we-believe/salvation.html">Salvation</a>
                                 <a class="dropdown-item" href="what-we-believe/the-lords-supper.html">Communion</a>
@@ -58,14 +64,14 @@
                                 <a class="dropdown-item" href="what-we-believe/baptism-of-spirit.html">Baptism Of The Holy Spirit</a>
                                 <a class="dropdown-item" href="what-we-believe/the-gifts.html">Gifts Of The Holy Spirit</a>
                                 <a class="dropdown-item" href="what-we-believe/the-church.html">The Church</a>
-                                <a class="dropdown-item" href="what-we-believe/the-church.html">Seventh Day Adventists</a>
+                                <a class="dropdown-item" href="what-we-believe/seventh-day-adventism.html">Seventh Day Adventists</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sermons</a>
+                            <a class="nav-link" href="sermons.html">Sermons</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Puerto Rico Relief</a>
+                            <a class="nav-link" href="puerto-rico.html">Puerto Rico Relief</a>
                         </li>
                     </ul>
                 </div> <!--End actual menu-->
