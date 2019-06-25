@@ -22,8 +22,8 @@
   also give text on bottom a bit of space
 */
 body { 
-  padding-top: 65px; 
-  padding-bottom: 20px;
+  margin-top: 65px; 
+  margin-bottom: 20px;
 }
 
 /*
@@ -35,14 +35,36 @@ blockquote {
 }
 /*
   overides the previous class if blockquote needs to be indented
-*/
 .indented-list {
   padding-left: 1rem;
 }
-
+*/
 /*
   slightly indents text
 */
 p {
   padding-left: 1rem;
+}
+/*
+  list styles for dad's sermons h2 is used for main points h1 for title and the rest of these for the lists
+*/
+.list-level-1 {
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+.list-level-2 {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-left: 1.5rem;
+}
+.list-level-3 {
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+  padding-left: 1.5rem;
+}
+.list-level-4 {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 1.5rem;
 }
