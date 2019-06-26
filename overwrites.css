@@ -43,11 +43,18 @@ p {
 /*
   allows google calendar to be responsive
 */
-.responsiveCal {
-  position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+.responsive-calendar {
+  position: relative; 
+  padding-bottom: 75%; 
+  height: 0; 
+  overflow: hidden;
 }
-.responsiveCal iframe {
-  position: absolute; top:0; left: 0; width: 100%; height: 100%;
+.responsive-calendar iframe {
+  position: absolute; 
+  top:0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
 }
 /*
   list styles for dad's sermons h2 is used for main points h1 for title and the rest of these for the lists
