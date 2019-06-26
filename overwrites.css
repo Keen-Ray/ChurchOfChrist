@@ -35,10 +35,11 @@ blockquote {
 }
 /*
   overides the previous class if blockquote needs to be indented
-.indented-list {
-  padding-left: 1rem;
-}
 */
+.indented-list {
+  padding-left: 2rem;
+}
+
 /*
   slightly indents text
 */
